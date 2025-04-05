@@ -2,6 +2,8 @@
 
 A responsive web application that replicates the user interface of Figma, a popular design tool. This project showcases the implementation of key Figma UI features, built using modern web technologies.
 
+> **Note:** This project is in its early stages of development. Some bugs or mishandling may occur as features are still being added and refined. Also this is my first project I am putting in public on github
+
 ## Features
 - Responsive design that adapts to various screen sizes.
 - Interactive toolbars and navigation panels similar to Figma.
@@ -14,6 +16,22 @@ A responsive web application that replicates the user interface of Figma, a popu
 - React (or any framework you used)
 - Tailwind CSS (or other styling tools)
 - (Any other relevant libraries/tools)
+
+- figma-ui-clone/
+│
+├── public/               # Static assets like images, icons, etc.
+├── src/                  # Source code files
+│   ├── components/       # Reusable UI components (buttons, menus, etc.)
+│   ├── pages/            # React pages or views
+│   ├── assets/           # Images, icons, and other static resources
+│   ├── styles/           # CSS/SCSS or Tailwind config files
+│   └── App.js            # Main app entry point
+│
+├── .gitignore            # Git ignore file
+├── package.json          # Project metadata and dependencies
+└── README.md             # Project documentation
+
+
 
 # React + TypeScript + Vite
 
@@ -65,3 +83,14 @@ export default tseslint.config({
   },
 })
 ```
+
+
+Known Issues
+Some interactive elements may not function perfectly due to the early stage of development.
+
+Design previews might not be fully accurate in some cases.
+
+Performance may degrade with a large number of UI elements.
+
+License
+This project is licensed under the MIT License.
