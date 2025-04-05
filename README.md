@@ -1,3 +1,20 @@
+# Figma UI Clone
+
+A responsive web application that replicates the user interface of Figma, a popular design tool. This project showcases the implementation of key Figma UI features, built using modern web technologies.
+
+## Features
+- Responsive design that adapts to various screen sizes.
+- Interactive toolbars and navigation panels similar to Figma.
+- Real-time preview of UI elements and layout.
+- Basic mockup and design editing features (Optional, depending on your project scope).
+- Clean and user-friendly interface.
+
+## Technologies Used
+- HTML5, CSS3, JavaScript
+- React (or any framework you used)
+- Tailwind CSS (or other styling tools)
+- (Any other relevant libraries/tools)
+
 # React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
